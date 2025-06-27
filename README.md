@@ -31,6 +31,7 @@ A curated list of awesome works in Routing LLMs paradigm
 ## Routing LLM Paper
 | **Paper**                                                                                             | **Conference/Journal** |**Code**    |**Type**    |
 |--------------------------------------------------------------------------------------------------------|------------------------|--------------------|------------|
+｜ [BEST-Route: Adaptive LLM Routing with Test-Time Optimal Compute](https://openreview.net/forum?id=tFBIbCVXkG) | ICML'25 | - | Method|
 |  [Capability Instruction Tuning: A New Paradigm for Dynamic LLM Routing](https://arxiv.org/abs/2502.17282)                                | AAAI'25             | [Link](https://github.com/Now-Join-Us/CIT-LLM-Routing)      | Method |
 | [EmbedLLM: Learning Compact Representations of Large Language Models](https://openreview.net/forum?id=Fs9EabmQrJ)                                        | ICLR'25               |  [Link](https://github.com/richardzhuang0412/EmbedLLM)     | Method |
 | [RouteLLM: Learning to Route LLMs from Preference Data](https://openreview.net/forum?id=8sSqNntaMr)                                        | ICLR'25               |  [Link](https://github.com/lm-sys/RouteLLM)     | Method |
