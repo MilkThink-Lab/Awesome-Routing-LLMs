@@ -8,7 +8,8 @@ A curated list of awesome works in Routing LLMs paradigm
 
 | **Paper**                                                                                             | **Conference/Journal** |**Code**    |**Type**    |
 |--------------------------------------------------------------------------------------------------------|------------------------|--------------------|------------|
-| [Arch-Router: Aligning LLM Routing with Human Preferences](https://arxiv.org/abs/2506.16655) | arxiv'25 | - | Method |
+
+| [Arch-Router: Aligning LLM Routing with Human Preferences](https://arxiv.org/abs/2506.16655)    | arxiv'25      |   [Link](https://github.com/katanemo/archgw)    |  Method |
 | [RadialRouter: Structured Representation for Efficient and Robust Large Language Models Routing](https://arxiv.org/abs/2506.03880) | arxiv'25 | - | Method |
 | [LLM-Router: Learning to Route LLMs with Confidence Tokens](https://arxiv.org/abs/2410.13284) | arxiv'25 |  - |  Method |
 | [OmniRouter: Budget and Performance Controllable Multi-LLM Routing](https://arxiv.org/abs/2502.20576) | arxiv'25 | [Link](https://github.com/agiresearch/OmniRouter) | Method |
@@ -16,7 +17,8 @@ A curated list of awesome works in Routing LLMs paradigm
 | [Confident or Seek Stronger: Exploring Uncertainty-Based On-device LLM Routing From Benchmarking to Generalization](https://arxiv.org/abs/2502.04428) | arxiv'25 | - | Method |
 | [Route-and-Reason: Scaling Large Language Model Reasoning with Reinforced Model Router](https://arxiv.org/abs/2506.05901) | arxiv'25 | [Link](https://anonymous.4open.science/r/R2_Reasoner/readme.md) | Method |
 | [LightRouter: Towards Efficient LLM Collaboration with Minimal Overhead](https://arxiv.org/pdf/2505.16221)                                        | arxiv'25               |   -    |  Method |
-| [RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs](https://arxiv.org/pdf/2503.10657)          | arxiv'25               |   [Link](https://github.com/MilkThink-Lab/RouterEval)    | Benchmark |
+|  [vLLM Semantic Router](https://vllm-semantic-router.com/) | Website | [Link](https://github.com/vllm-project/semantic-router) | Method |
+|  [Aurelio Semantic Router](https://www.aurelio.ai/semantic-router) | Website | [Link](https://github.com/aurelio-labs/semantic-router) | Method |
 | [Universal Model Routing for Efficient LLM Inference](https://arxiv.org/pdf/2502.08773)                                        | arxiv'25               |   -    |  Method |
 | [MasRouter: Learning to Route LLMs for Multi-Agent Systems](https://arxiv.org/pdf/2502.11133)                                        | arxiv'25               |   [Link](https://github.com/yanweiyue/masrouter)   |  Method |
 | [Leveraging Uncertainty Estimation for Efficient LLM Routing](https://arxiv.org/pdf/2502.11021)                                        | arxiv'25               |   -    |  Method |
@@ -38,11 +40,12 @@ A curated list of awesome works in Routing LLMs paradigm
 ## Routing LLM Paper
 | **Paper**                                                                                             | **Conference/Journal** |**Code**    |**Type**    |
 |--------------------------------------------------------------------------------------------------------|------------------------|--------------------|------------|
+| [RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs](https://arxiv.org/pdf/2503.10657)          | EMNLP'25               |   [Link](https://github.com/MilkThink-Lab/RouterEval)    | Benchmark |
 | [IRT-Router: Effective and Interpretable Multi-LLM Routing via Item Response Theory](https://aclanthology.org/2025.acl-long.761.pdf) | ACL'25 | [Link](https://github.com/Mercidaiha/IRT-Router) | Method | 
 | [TagRouter: Learning Route to LLMs through Tags for Open-Domain Text Generation Tasks](https://aclanthology.org/2025.findings-acl.1110/) | ACL'25 | - | Method |
 | [GraphRouter: A Graph-based Router for LLM Selections](https://arxiv.org/abs/2410.03834v2) | ICLR'25 | [Link](https://github.com/ulab-uiuc/GraphRouter) | Method |
 | [BEST-Route: Adaptive LLM Routing with Test-Time Optimal Compute](https://openreview.net/forum?id=tFBIbCVXkG) | ICML'25 | - | Method |
-|  [Capability Instruction Tuning: A New Paradigm for Dynamic LLM Routing](https://arxiv.org/abs/2502.17282)                                | AAAI'25             | [Link](https://github.com/Now-Join-Us/CIT-LLM-Routing)      | Method |
+| [Capability Instruction Tuning: A New Paradigm for Dynamic LLM Routing](https://arxiv.org/abs/2502.17282)                                | AAAI'25             | [Link](https://github.com/Now-Join-Us/CIT-LLM-Routing)      | Method |
 | [EmbedLLM: Learning Compact Representations of Large Language Models](https://openreview.net/forum?id=Fs9EabmQrJ)                                        | ICLR'25               |  [Link](https://github.com/richardzhuang0412/EmbedLLM)     | Method |
 | [RouteLLM: Learning to Route LLMs from Preference Data](https://openreview.net/forum?id=8sSqNntaMr)                                        | ICLR'25               |  [Link](https://github.com/lm-sys/RouteLLM)     | Method |
 | [TensorOpera Router: A Multi-Model Router for Efficient LLM Inference](https://arxiv.org/abs/2408.12320) |  EMNLP'24 |  - | Method |
