@@ -8,7 +8,6 @@ A curated list of awesome works in Routing LLMs paradigm
 
 | **Paper**                                                                                             | **Conference/Journal** |**Code**    |**Type**    |
 |--------------------------------------------------------------------------------------------------------|------------------------|--------------------|------------|
-
 | [Arch-Router: Aligning LLM Routing with Human Preferences](https://arxiv.org/abs/2506.16655)    | arxiv'25      |   [Link](https://github.com/katanemo/archgw)    |  Method |
 | [RadialRouter: Structured Representation for Efficient and Robust Large Language Models Routing](https://arxiv.org/abs/2506.03880) | arxiv'25 | - | Method |
 | [LLM-Router: Learning to Route LLMs with Confidence Tokens](https://arxiv.org/abs/2410.13284) | arxiv'25 |  - |  Method |
@@ -17,8 +16,6 @@ A curated list of awesome works in Routing LLMs paradigm
 | [Confident or Seek Stronger: Exploring Uncertainty-Based On-device LLM Routing From Benchmarking to Generalization](https://arxiv.org/abs/2502.04428) | arxiv'25 | - | Method |
 | [Route-and-Reason: Scaling Large Language Model Reasoning with Reinforced Model Router](https://arxiv.org/abs/2506.05901) | arxiv'25 | [Link](https://anonymous.4open.science/r/R2_Reasoner/readme.md) | Method |
 | [LightRouter: Towards Efficient LLM Collaboration with Minimal Overhead](https://arxiv.org/pdf/2505.16221)                                        | arxiv'25               |   -    |  Method |
-|  [vLLM Semantic Router](https://vllm-semantic-router.com/) | Website | [Link](https://github.com/vllm-project/semantic-router) | Method |
-|  [Aurelio Semantic Router](https://www.aurelio.ai/semantic-router) | Website | [Link](https://github.com/aurelio-labs/semantic-router) | Method |
 | [Universal Model Routing for Efficient LLM Inference](https://arxiv.org/pdf/2502.08773)                                        | arxiv'25               |   -    |  Method |
 | [MasRouter: Learning to Route LLMs for Multi-Agent Systems](https://arxiv.org/pdf/2502.11133)                                        | arxiv'25               |   [Link](https://github.com/yanweiyue/masrouter)   |  Method |
 | [Leveraging Uncertainty Estimation for Efficient LLM Routing](https://arxiv.org/pdf/2502.11021)                                        | arxiv'25               |   -    |  Method |
@@ -29,6 +26,8 @@ A curated list of awesome works in Routing LLMs paradigm
 | [Routoo: Learning to Route to Large Language Models Effectively](https://arxiv.org/abs/2401.13979)                                   | arxiv'24            |-     | Method |
 | [Tryage: Real-time, intelligent Routing of User Prompts to Large Language Models ](https://arxiv.org/abs/2308.11601)                                   | arxiv'23            |-     | Method |
 | [FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance](https://arxiv.org/abs/2305.05176)                                   | arxiv'23           | [Link](https://github.com/stanford-futuredata/FrugalGPT)      | Method |
+|  [vLLM Semantic Router](https://vllm-semantic-router.com/) | Website | [Link](https://github.com/vllm-project/semantic-router) | Method |
+|  [Aurelio Semantic Router](https://www.aurelio.ai/semantic-router) | Website | [Link](https://github.com/aurelio-labs/semantic-router) | Method |
 
 
 
