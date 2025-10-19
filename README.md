@@ -8,6 +8,13 @@ A curated list of awesome works in Routing LLMs paradigm
 
 | **Paper**                                                                                             | **Conference/Journal** |**Code**    |**Type**    |
 |--------------------------------------------------------------------------------------------------------|------------------------|--------------------|------------|
+| [Arch-Router: Aligning LLM Routing with Human Preferences](https://arxiv.org/abs/2506.16655) | arxiv'25 | - | Method |
+| [RadialRouter: Structured Representation for Efficient and Robust Large Language Models Routing](https://arxiv.org/abs/2506.03880) | arxiv'25 | - | Method |
+| [LLM-Router: Learning to Route LLMs with Confidence Tokens](https://arxiv.org/abs/2410.13284) | arxiv'25 |  - |  Method |
+| [OmniRouter: Budget and Performance Controllable Multi-LLM Routing](https://arxiv.org/abs/2502.20576) | arxiv'25 | [Link](https://github.com/agiresearch/OmniRouter) | Method |
+| [CP-Router: An Uncertainty-Aware Router Between LLM and LRM](https://arxiv.org/abs/2505.19970) | arxiv'25 |  - | Method |
+| [Confident or Seek Stronger: Exploring Uncertainty-Based On-device LLM Routing From Benchmarking to Generalization](https://arxiv.org/abs/2502.04428) | arxiv'25 | - | Method |
+| [Route-and-Reason: Scaling Large Language Model Reasoning with Reinforced Model Router](https://arxiv.org/abs/2506.05901) | arxiv'25 | [Link](https://anonymous.4open.science/r/R2_Reasoner/readme.md) | Method |
 | [LightRouter: Towards Efficient LLM Collaboration with Minimal Overhead](https://arxiv.org/pdf/2505.16221)                                        | arxiv'25               |   -    |  Method |
 | [RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs](https://arxiv.org/pdf/2503.10657)          | arxiv'25               |   [Link](https://github.com/MilkThink-Lab/RouterEval)    | Benchmark |
 | [Universal Model Routing for Efficient LLM Inference](https://arxiv.org/pdf/2502.08773)                                        | arxiv'25               |   -    |  Method |
@@ -31,10 +38,14 @@ A curated list of awesome works in Routing LLMs paradigm
 ## Routing LLM Paper
 | **Paper**                                                                                             | **Conference/Journal** |**Code**    |**Type**    |
 |--------------------------------------------------------------------------------------------------------|------------------------|--------------------|------------|
-｜ [BEST-Route: Adaptive LLM Routing with Test-Time Optimal Compute](https://openreview.net/forum?id=tFBIbCVXkG) | ICML'25 | - | Method|
+| [IRT-Router: Effective and Interpretable Multi-LLM Routing via Item Response Theory](https://aclanthology.org/2025.acl-long.761.pdf) | ACL'25 | [Link](https://github.com/Mercidaiha/IRT-Router) | Method | 
+| [TagRouter: Learning Route to LLMs through Tags for Open-Domain Text Generation Tasks](https://aclanthology.org/2025.findings-acl.1110/) | ACL'25 | - | Method |
+| [GraphRouter: A Graph-based Router for LLM Selections](https://arxiv.org/abs/2410.03834v2) | ICLR'25 | [Link](https://github.com/ulab-uiuc/GraphRouter) | Method |
+| [BEST-Route: Adaptive LLM Routing with Test-Time Optimal Compute](https://openreview.net/forum?id=tFBIbCVXkG) | ICML'25 | - | Method |
 |  [Capability Instruction Tuning: A New Paradigm for Dynamic LLM Routing](https://arxiv.org/abs/2502.17282)                                | AAAI'25             | [Link](https://github.com/Now-Join-Us/CIT-LLM-Routing)      | Method |
 | [EmbedLLM: Learning Compact Representations of Large Language Models](https://openreview.net/forum?id=Fs9EabmQrJ)                                        | ICLR'25               |  [Link](https://github.com/richardzhuang0412/EmbedLLM)     | Method |
 | [RouteLLM: Learning to Route LLMs from Preference Data](https://openreview.net/forum?id=8sSqNntaMr)                                        | ICLR'25               |  [Link](https://github.com/lm-sys/RouteLLM)     | Method |
+| [TensorOpera Router: A Multi-Model Router for Efficient LLM Inference](https://arxiv.org/abs/2408.12320) |  EMNLP'24 |  - | Method |
 | [Cache & Distil: Optimising API Calls to Large Language Models](https://aclanthology.org/2024.findings-acl.704/)                                   | ACL'24            | -     | Method |
 | [Model-GLUE: Democratized LLM Scaling for A Large Model Zoo in the Wild](https://arxiv.org/pdf/2410.05357)                                   | NeurIPS'24            | [Link](https://github.com/Model-GLUE/Model-GLUE/tree/main)      | Method |
 | [RouterDC: Query-Based Router by Dual Contrastive Learning for Assembling Large Language Models](https://openreview.net/pdf?id=7RQvjayHrM)                                   | NeurIPS'24            | [Link](https://github.com/shuhao02/RouterDC)      | Method |
