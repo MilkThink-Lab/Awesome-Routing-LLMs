@@ -39,6 +39,9 @@ A curated list of awesome works in Routing LLMs paradigm
 ## Routing LLM Paper
 | **Paper**                                                                                             | **Conference/Journal** |**Code**    |**Type**    |
 |--------------------------------------------------------------------------------------------------------|------------------------|--------------------|------------|
+| [ICL-Router: In-Context Learned Model Representations for LLM Routing](https://arxiv.org/abs/2510.09719) | AAAI'26 | [Link](https://github.com/lalalamdbf/ICL-Router) | Method |
+| [The Avengers: A Routing Recipe for Collective Intelligence in Language Models](https://arxiv.org/abs/2505.19797) | AAAI'26 | [Link](https://github.com/ZhangYiqun018/Avengers) | Method |
+| [Beyond GPT-5: Making LLMs Cheaper and Better via Performance–Efficiency Optimized Routing](https://arxiv.org/abs/2508.12631) | DAI'25 | [Link](https://github.com/ZhangYiqun018/AvengersPro) | Method |
 | [Router-R1: Teaching LLMs Multi-Round Routing and Aggregation via Reinforcement Learning](https://openreview.net/pdf?id=DWf4vroKWJ) | NeurIPS'25 | [Link](https://github.com/ulab-uiuc/Router-R1) | Method |
 | [Adaptive LLM Routing Under Budget Constraints](https://aclanthology.org/anthology-files/anthology-files/pdf/findings/2025.findings-emnlp.1301.pdf) | EMNLP'25 | - | Method |
 | [RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs](https://arxiv.org/pdf/2503.10657)          | EMNLP'25               |   [Link](https://github.com/MilkThink-Lab/RouterEval)    | Benchmark |
