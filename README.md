@@ -8,6 +8,7 @@ A curated list of awesome works in Routing LLMs paradigm
 
 | **Paper**                                                                                             | **Conference/Journal** |**Code**    |**Type**    |
 |--------------------------------------------------------------------------------------------------------|------------------------|--------------------|------------|
+| [LLMRouterBench: A Massive Benchmark and Unified Framework for LLM Routing](https://arxiv.org/abs/2601.07206) | arxiv'26 | [Link](https://github.com/ynulihao/LLMRouterBench) | Benchmark |
 | [Arch-Router: Aligning LLM Routing with Human Preferences](https://arxiv.org/abs/2506.16655)    | arxiv'25      |   [Link](https://github.com/katanemo/archgw)    |  Method |
 | [RadialRouter: Structured Representation for Efficient and Robust Large Language Models Routing](https://arxiv.org/abs/2506.03880) | arxiv'25 | - | Method |
 | [LLM-Router: Learning to Route LLMs with Confidence Tokens](https://arxiv.org/abs/2410.13284) | arxiv'25 |  - |  Method |
