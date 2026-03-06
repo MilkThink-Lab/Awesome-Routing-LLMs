@@ -8,6 +8,7 @@ A curated list of awesome works in Routing LLMs paradigm
 
 | **Paper**                                                                                             | **Conference/Journal** |**Code**    |**Type**    |
 |--------------------------------------------------------------------------------------------------------|------------------------|--------------------|------------|
+| [Dynamic Model Routing and Cascading for Efficient LLM Inference: A Survey](https://arxiv.org/abs/2603.04445) | arxiv'26 | - | Survey |
 | [LLMRouterBench: A Massive Benchmark and Unified Framework for LLM Routing](https://arxiv.org/abs/2601.07206) | arxiv'26 | [Link](https://github.com/ynulihao/LLMRouterBench) | Benchmark |
 | [Arch-Router: Aligning LLM Routing with Human Preferences](https://arxiv.org/abs/2506.16655)    | arxiv'25      |   [Link](https://github.com/katanemo/archgw)    |  Method |
 | [RadialRouter: Structured Representation for Efficient and Robust Large Language Models Routing](https://arxiv.org/abs/2506.03880) | arxiv'25 | - | Method |
