@@ -1,3 +1,5 @@
+
+
 # Awesome-Routing-LLMs
 
 A curated list of awesome works in Routing LLMs paradigm
@@ -6,9 +8,19 @@ A curated list of awesome works in Routing LLMs paradigm
 
 ---
 
-### Routing Papers: Pre‑judgment Routing
+## Survey
 
-**Sub‑Category: Constrained Optimization**
+| **Paper**                                                    | **Conference/Journal** | **Code** |
+| ------------------------------------------------------------ | ---------------------- | -------- |
+| [Dynamic Model Routing and Cascading for Efficient LLM Inference: A Survey](https://arxiv.org/abs/2603.04445) | arxiv'26               |          |
+
+## Routing Papers: Pre‑judgment Routing
+
+*Pre‑judgment routing makes a routing decision before any generation starts. It relies only on the initial query and static model information, making it suitable for fast, one‑shot allocation. The three main strategies are feature matching, predictive scoring, and constrained optimization.*
+
+### **Sub‑Category: Constrained Optimization**
+
+In deployment, routing often faces hard resource constraints (e.g., maximum latency or cost). This paradigm casts decision‑making as constrained utility maximization, using optimization strategies, multi‑objective formulations, or adaptive policies such as reinforcement learning to trade off quality and cost under budget limits.
 
 | Title                                                        | Publish               | Domain                                        | Code                                                         |
 | ------------------------------------------------------------ | --------------------- | --------------------------------------------- | ------------------------------------------------------------ |
@@ -47,7 +59,9 @@ A curated list of awesome works in Routing LLMs paradigm
 | [BOUTE: Cost‑Efficient LLM Serving with Heterogeneous LLMs and GPUs via Multi‑Objective Bayesian Optimization](https://arxiv.org/abs/2602.10729) (Boute) | ArXiv 2026            | General, Math, Reasoning                      | –                                                            |
 | [Outcome‑Aware Tool Selection for Semantic Routers: Latency‑Constrained Learning Without LLM Inference](https://arxiv.org/abs/2603.13426) (OATS) | ArXiv 2026            | Agent, Retrieval                              | –                                                            |
 
-**Sub‑Category: Feature Matching**
+### **Sub‑Category: Feature Matching**
+
+*Feature matching aligns the query representation and model capability representations in a shared space, then selects the model whose embedding is closest to the query. This approach can be lightweight and training‑free, but may degrade under distribution shift; adaptive methods use attention, policy learning, or prototype matching to stay robust.*
 
 | Title                                                        | Publish      | Domain                                           | Code                                                         |
 | ------------------------------------------------------------ | ------------ | ------------------------------------------------ | ------------------------------------------------------------ |
@@ -67,7 +81,9 @@ A curated list of awesome works in Routing LLMs paradigm
 | [Toward Super Agent System with Hybrid AI Routers](https://arxiv.org/abs/2504.10519) (Super Agent System) | ArXiv 2025   | Agent, Code                                      | –                                                            |
 | [vLLM Semantic Router: Signal Driven Decision Routing for Mixture‑of‑Modality Models](https://arxiv.org/abs/2603.04444) | ArXiv 2026   | General, Multimodal                              | [GitHub](https://github.com/vllm-project/semantic-router)    |
 
-**Sub‑Category: Predictive Scoring**
+### **Sub‑Category: Predictive Scoring**
+
+*Predictive scoring learns a parametric estimator (e.g., a small neural network) that predicts the expected utility of each model for a given query. This enables quality‑cost trade‑offs, multi‑objective optimization, and robustness under distribution shift through techniques like minimax, causal inference, or uncertainty estimation.*
 
 | Title                                                        | Publish               | Domain                                    | Code                                                        |
 | ------------------------------------------------------------ | --------------------- | ----------------------------------------- | ----------------------------------------------------------- |
@@ -99,9 +115,15 @@ A curated list of awesome works in Routing LLMs paradigm
 
 ---
 
-### Routing Papers: Verification Routing
+## Routing Papers: Verification Routing
 
-**Sub‑Category: Collaborative Generation**
+*Verification routing expands the decision space to intermediate generation states (partial outputs, confidence scores, or reasoning steps). It can revise routing decisions during inference, making the process more adaptive. Two common patterns are self‑assessment (reactive fallback) and collaborative generation (proactive, token‑level interleaving).*
+
+### **Sub‑Category: Collaborative Generation**
+
+*Collaborative generation integrates decision points directly into the generation process. Instead of a one‑shot model choice, multiple models collaborate step‑wise or token‑wise – e.g., switching control at reasoning boundaries or invoking expert models only at critical tokens. This enables fine‑grained, online adaptation.*
+
+
 
 | Title                                                        | Publish      | Domain                                                    | Code                                                         |
 | ------------------------------------------------------------ | ------------ | --------------------------------------------------------- | ------------------------------------------------------------ |
@@ -120,8 +142,11 @@ A curated list of awesome works in Routing LLMs paradigm
 | [LightRouter: Towards Efficient LLM Collaboration with Minimal Overhead](https://arxiv.org/abs/2505.16221) (LightRouter) | ArXiv 2025   | General, Code, Math, QA, Reasoning                        | –                                                            |
 | [Token‑Level LLM Collaboration via FusionRoute](https://arxiv.org/abs/2601.05106) (FusionRoute) | ICML 2026    | Math, Code, General                                       | [GitHub](https://github.com/xiongny/FusionRoute/tree/master) |
 | [TARo: Token‑level Adaptive Routing for LLM Test‑time Alignment](https://arxiv.org/abs/2603.18411) (TARo) | ArXiv 2026   | Math, Med, Reasoning, Gen                                 | –                                                            |
+| [Neural Chain-of-Thought Search: Searching the Optimal Reasoning Path to Enhance Large Language Models](https://arxiv.org/abs/2601.11340)(NCoTs) | ArXiv 2026   | Math, Reasoning, General                                  | [GitHub](https://github.com/MilkThink-Lab/Neural-CoT-Search) |
 
-**Sub‑Category: Self‑Assessment**
+### **Sub‑Category: Self‑Assessment**
+
+*Self‑assessment uses the model’s own confidence, uncertainty, or self‑consistency signals to decide whether to keep using a lightweight model or escalate to a stronger one. Decisions can be made at sequence end or at reasoning bottlenecks, often with a confidence threshold that triggers fallback.*
 
 | Title                                                        | Publish               | Domain                             | Code                                               |
 | ------------------------------------------------------------ | --------------------- | ---------------------------------- | -------------------------------------------------- |
@@ -137,9 +162,13 @@ A curated list of awesome works in Routing LLMs paradigm
 
 ---
 
-### Routing Papers: Memory‑based Routing
+## Routing Papers: Memory‑based Routing
 
-**Sub‑Category: Retrieval**
+*Memory‑based routing conditions decisions not only on the current query but also on persistent historical memory – past queries, outcomes, or user interactions. This grounds uncertain online prediction in reusable evidence, enabling cross‑domain and multi‑turn adaptation. The main approaches are retrieval‑based and structured (graph‑based) routing.*
+
+### **Sub‑Category: Retrieval**
+
+*Retrieval‑based routing finds a semantic neighborhood of historical samples similar to the current query, then aggregates observed model utilities from those samples (e.g., via kNN or proximity weighting). This local estimation adapts to query variations without heavy retraining and can handle distribution shifts gracefully.*
 
 | Title                                                        | Publish               | Domain                                         | Code                                                     |
 | ------------------------------------------------------------ | --------------------- | ---------------------------------------------- | -------------------------------------------------------- |
@@ -153,9 +182,59 @@ A curated list of awesome works in Routing LLMs paradigm
 | [EvoRoute: Experience‑Driven Self‑Routing LLM Agent Systems](https://arxiv.org/abs/2601.02695) (EvoRoute) | ArXiv 2026            | Agent, General                                 | –                                                        |
 | [Models Under SCOPE: Scalable and Controllable Routing via Pre‑hoc Reasoning](https://arxiv.org/abs/2601.22323) (SCOPE) | ICML 2026             | General, Reasoning, Math, STEM                 | [GitHub](https://github.com/Sullivan07043/SCOPE)         |
 
-**Sub‑Category: Structured**
+### **Sub‑Category: Structured**
+
+*Structured routing represents interactions, queries, tasks, and models as nodes in a topological history graph. Routing becomes a graph‑based scoring problem – e.g., using a Graph Neural Network to encode query and model nodes and predict their routing affinity. This supports relational reasoning, personalization, and long‑term planning.*
 
 | Title                                                        | Publish    | Domain                      | Code                                               |
 | ------------------------------------------------------------ | ---------- | --------------------------- | -------------------------------------------------- |
 | [GraphRouter: A Graph‑based Router for LLM Selections](https://arxiv.org/abs/2410.03834) (GRAPHROUTER) | ICLR 2025  | General, QA, Reasoning      | [GitHub](https://github.com/ulab-uiuc/GraphRouter) |
 | [GMTRouter: Personalized LLM Router over Multi‑turn User Interactions](https://arxiv.org/abs/2511.08590) (GMTRouter) | ArXiv 2025 | General, Dialogue, Math, QA | [GitHub](https://github.com/ulab-uiuc/GMTRouter)   |
+
+## Routing Papers: System Analysis
+
+*Analytical work studies system‑level behavior: theoretical bounds, benchmark  evaluation, and safety risks. These works treat routing as part of a  larger ecosystem with multiple objectives, constraints, and potential  adversaries. The three sub‑categories cover theoretical modeling,  benchmark & evaluation, and safety analysis.*
+
+### **Sub‑Category: Theoretical Modeling**
+
+*Theoretical modeling applies tools from pricing theory, queueing analysis, and game theory to understand routing in constrained, dynamic, or strategic  settings. For example, Stackelberg games model LLM service pricing,  while contextual queueing bandits capture user retrials and scheduling.  These studies reveal interdependencies among routing quality, latency,  and cost.*
+
+| Method                                                       | Domain  | Publish    | Code |
+| ------------------------------------------------------------ | ------- | ---------- | ---- |
+| [PriLLM (Pricing Online LLM Services with Data‑Calibrated Stackelberg Routing Game)](https://arxiv.org/abs/2511.09062) | Code    | AAAI 2025  | –    |
+| [Mahmood et al. (Routing, Cascades, and User Choice for LLMs)](https://arxiv.org/abs/2602.09902) | Theory  | ICLR 2026  | –    |
+| [Bae et al. (Learning to Route and Schedule LLMs from User Retrials via Contextual Queueing Bandits)](https://arxiv.org/abs/2602.02061) | General | ArXiv 2026 | –    |
+
+### **Sub‑Category: Benchmark and Evaluation**
+
+*Benchmarks assess routers across diverse tasks, model pools, and deployment  constraints (latency, cost, robustness). They extend evaluation from  static model selection to dynamic, multi‑dimensional trade‑offs.  Representative benchmarks include RouterBench, RouterEval,  VL‑RouterBench (multimodal), and AgentSelect (agentic scenarios). A  unified framework is needed to jointly evaluate quality, latency, cost,  robustness, and resource efficiency.*
+
+| Method                                                       | Domain                              | Publish               | Code                                                         |
+| ------------------------------------------------------------ | ----------------------------------- | --------------------- | ------------------------------------------------------------ |
+| [Multi-LLM Collaboration for Medication Recommendation](https://arxiv.org/abs/2512.05066) | Med                                 | ArXiv 2025            | –                                                            |
+| [AmongUs (Measuring and Mitigating Malicious Contributions in Model Collaboration Systems)](https://arxiv.org/abs/2602.05176) | Security, Safety                    | ICML 2026             | [GitHub](https://github.com/Ziyuan-Yang/AmongUs)             |
+| [AgentSelect (Benchmark for Narrative Query‑to‑Agent Recommendation)](https://arxiv.org/abs/2603.03761) | Agent                               | ArXiv 2026            | [GitHub](https://github.com/Ancientshi/AgentMatch)           |
+| [DSC (How Robust Are Router‑LLMs? Analysis of the Fragility of LLM Routing Capabilities)](https://arxiv.org/abs/2504.07113) | STEM, Safety                        | EACL 2026             | –                                                            |
+| [IPW (Intelligence per Watt: Measuring Intelligence Efficiency of Local AI)](https://arxiv.org/abs/2511.07885) | Chat, General                       | ArXiv 2025            | –                                                            |
+| [LLMRouterBench (A Massive Benchmark and Unified Framework for LLM Routing)](https://arxiv.org/abs/2601.07206) | STEM, Med                           | ArXiv 2026            | [GitHub](https://github.com/ynulihao/LLMRouterBench)         |
+| [MMR-Bench (A Comprehensive Benchmark for Multimodal LLM Routing)](https://arxiv.org/abs/2601.17814) | Multimodal, VQA                     | ArXiv 2026            | [GitHub](https://github.com/Hunter-Wrynn/MMR-Bench)          |
+| [Model-GLUE (Democratized LLM Scaling for A Large Model Zoo in the Wild)](https://arxiv.org/abs/2410.05357) | STEM, Chat                          | NeurIPS 2024          | [GitHub](https://github.com/Model-GLUE/Model-GLUE)           |
+| [Prompt-to-Leaderboard (Prompt‑Adaptive LLM Evaluations)](https://arxiv.org/abs/2502.14855) | Chat, General                       | ICML 2025             | [GitHub](https://github.com/lmarena/p2l)                     |
+| [RouterArena (An Open Platform for Comprehensive Comparison of LLM Routers)](https://arxiv.org/abs/2510.00202) | General                             | ICLR 2025             | [GitHub](https://github.com/RouteWorks/RouterArena)          |
+| [RouterEval (A Comprehensive Benchmark for Routing LLMs)](https://arxiv.org/abs/2503.10657) | General, QA, Reasoning, Math        | EMNLP 2025            | [GitHub](https://github.com/MilkThink-Lab/RouterEval)        |
+| [RouterBench (A Benchmark for Multi‑LLM Routing System)](https://arxiv.org/abs/2403.12031) | STEM, RAG                           | ICML Workshop 2024    | [GitHub](https://github.com/withmartian/routerbench)         |
+| [RouterXBench (Towards Fair and Comprehensive Evaluation of Routers in Collaborative LLM Systems)](https://arxiv.org/abs/2602.11877) | General, Math, Knowledge, Reasoning | ArXiv 2026            | [GitHub](https://github.com/zhuchichi56/RouterXBench)        |
+| [VL-RouterBench (A Benchmark for Vision‑Language Model Routing)](https://arxiv.org/abs/2512.23562) | Multimodal, STEM                    | ArXiv 2025            | [GitHub](https://github.com/K1nght/VL-RouterBench)           |
+| [Feng et al. (When One LLM Drools, Multi‑LLM Collaboration Rules)](https://arxiv.org/abs/2502.04506) | General                             | ArXiv 2025            | –                                                            |
+| [Yuan et al. (Who Routes the Router: Rethinking the Evaluation of LLM Routing Systems)](https://openreview.net/forum?id=EEPostHMtF) | General                             | NeurIPS 2025 Workshop | [GitHub](https://github.com/jy-yuan/rethinking-routing-evaluation) |
+| [RoutingLLM (Boosting LLM Performance for Network Routing)](https://ieeexplore.ieee.org/document/11461033) | Network Routing                     | ICASSP 2026           | –                                                            |
+
+### **Sub‑Category: Safety Analysis**
+
+*Safety analysis studies routing failures under adversarial, unreliable, or  privacy‑sensitive conditions. Attackers can redirect queries to  expensive models or bypass policies (e.g., confounder gadgets,  adversarial suffixes). Defenses include contrastive learning,  embedding‑based filtering, and hybrid surrogate models. Future routers  must embed safety, privacy, and security as core design constraints.*
+
+| Method                                                       | Domain            | Publish    | Code                                                         |
+| ------------------------------------------------------------ | ----------------- | ---------- | ------------------------------------------------------------ |
+| [RerouteGuard (Understanding and Mitigating Adversarial Risks for LLM Routing)](https://arxiv.org/abs/2601.21380) | STEM, Safety      | ArXiv 2026 | –                                                            |
+| [Rerouting LLM Routers](https://arxiv.org/abs/2501.01818)    | General, Security | COLM 2025  | [GitHub](https://github.com/avitalsh/rerouting_llm_routers/tree/main) |
+| [R2A (Route to Rome Attack: Directing LLM Routers to Expensive Models via Adversarial Suffix Optimization)](https://arxiv.org/abs/2604.15022) | Safety, Security  | ACL 2026   | [GitHub](https://github.com/thcxiker/R2A-Attack)             |
