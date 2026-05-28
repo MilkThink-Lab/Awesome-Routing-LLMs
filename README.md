@@ -229,6 +229,16 @@ In deployment, routing often faces hard resource constraints (e.g., maximum late
 | [Yuan et al. (Who Routes the Router: Rethinking the Evaluation of LLM Routing Systems)](https://openreview.net/forum?id=EEPostHMtF) | General                             | NeurIPS 2025 Workshop | [GitHub](https://github.com/jy-yuan/rethinking-routing-evaluation) |
 | [RoutingLLM (Boosting LLM Performance for Network Routing)](https://ieeexplore.ieee.org/document/11461033) | Network Routing                     | ICASSP 2026           | –                                                            |
 
+---
+
+## Production Tools & Open-Source Implementations
+
+*Real-world, deployable routing systems that can be used directly in production. These are open-source tools you can install and run today.*
+
+| Tool | Description | Installation | Benchmark |
+|:-----|:------------|:-------------|:----------|
+| [**A3M Router** 🏆](https://github.com/Das-rebel/a3m-router) | Open-source LLM router with **parallel multi-LLM execution** — runs 47+ providers simultaneously with confidence-scored voting. Features ensemble voting, query-type presets, semantic cache, budget enforcement, circuit breaker, and persistent episodic memory. | `npm install -g adaptive-memory-multi-model-router` | 🥇 **RouterArena #1** (76.43) — beats Sqwish, Azure, GPT-5, RouteLLM. [Results](https://github.com/RouteWorks/RouterArena/pull/113) |
+
 ### **Sub‑Category: Safety Analysis**
 
 *Safety analysis studies routing failures under adversarial, unreliable, or  privacy‑sensitive conditions. Attackers can redirect queries to  expensive models or bypass policies (e.g., confounder gadgets,  adversarial suffixes). Defenses include contrastive learning,  embedding‑based filtering, and hybrid surrogate models. Future routers  must embed safety, privacy, and security as core design constraints.*
