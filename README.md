@@ -129,6 +129,8 @@ In deployment, routing often faces hard resource constraints (e.g., maximum late
 | [LogRouter: Adaptive Two-Level LLM Routing for Log Question Answering in Big Data Systems](https://arxiv.org/abs/2605.18015) (LogRouter) | ArXiv 2026 | QA, RAG, Retrieval, Log parsing | – |
 | [IR3DE: A Linear Router for Large Language Models](https://arxiv.org/abs/2606.06098) (IR3DE) | ICML 2026 Workshop | General, Code, Math, Reasoning, STEM, Law, Dialogue | [github](https://github.com/gensyn-ai/IR3DE) |
 | [From Sampled Outcomes to Capability Distributions: Rethinking Supervision for LLM Routing](https://arxiv.org/abs/2606.06924) (DARS (Distribution-Aware Routing Supervision)) | ArXiv 2026 | STEM, Math, QA, Reasoning | [github](https://github.com/AIGNLAI/DARS) |
+| [Pretrain Once, Route Anywhere: Towards a Foundation Model for LLM Routing](https://arxiv.org/abs/2609.37362) (RouteFM) | ArXiv 2026 | General, Math, Code, Multimodal | [GitHub](https://github.com/LAMDA-Model-Reuse/RouteFM) |
+| [Routing Should Pay for Itself: Sparse Supervision for Economical LLM Routing](https://arxiv.org/abs/2609.37402) (SaveRouter) | ArXiv 2026 | General, Math, Code, Reasoning | [GitHub](https://github.com/LAMDA-Model-Reuse/SaveRouter) |
 <!-- | **[BLUE: Toward Better Language Use in Efficient Vision-Language-Action Models for Autonomous Driving](https://arxiv.org/abs/2606.08684) (BLUE)** | **ArXiv 2026** | **Autonomous driving, vision-language-action models** | **Available (see paper)** | -->
 
 ---
@@ -256,7 +258,8 @@ In deployment, routing often faces hard resource constraints (e.g., maximum late
 | [RoutingLLM (Boosting LLM Performance for Network Routing)](https://ieeexplore.ieee.org/document/11461033) | Network Routing                     | ICASSP 2026           | –                                                            |
 | [Unsolvability Ceiling in Multi-LLM Routing: An Empirical Study of Evaluation Artifacts](https://arxiv.org/abs/2605.07395) | General, Med, Code, QA, Dialogue | ArXiv 2026 | – |
 | [TwinRouterBench: Fast Static and Live Dynamic Evaluation for Realistic Agentic LLM Routing](https://arxiv.org/abs/2605.18859) (TwinRouterBench) | Agent, Code, RAG, Gen | ACM CAIS 2026 Workshop RLEval homepage | [github](https://github.com/CommonstackAI/TwinRouterBench) |
-| [RouteJudge: An Open Platform for Reproducible and Preference-Aware LLM Routing](https://arxiv.org/abs/2606.18774) (RouteJudge & ORBIT) | General, Dialogue, Gen | ArXiv 2026 | [github](https://lamda-model-reuse.github.io/RouteJudge/) |
+| [RouteJudge: An Open Platform for Reproducible and Preference-Aware LLM Routing](https://arxiv.org/abs/2606.18774) (RouteJudge & ORBIT) | General, Dialogue, Gen | ICML 2026 Workshop | [Project](https://routejudge.cn/) · [GitHub](https://github.com/LAMDA-Model-Reuse/ORBIT) |
+| [When LLM Routers Overpay: Strong-Model Over-Selection under Loose Budgets](https://openreview.net/forum?id=v2DOrFK8Wp) | General, Cost, Evaluation | NeurIPS 2026 | – |
 
 
 ### **Sub‑Category: Safety Analysis**
