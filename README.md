@@ -257,6 +257,7 @@ In deployment, routing often faces hard resource constraints (e.g., maximum late
 | [Unsolvability Ceiling in Multi-LLM Routing: An Empirical Study of Evaluation Artifacts](https://arxiv.org/abs/2605.07395) | General, Med, Code, QA, Dialogue | ArXiv 2026 | – |
 | [TwinRouterBench: Fast Static and Live Dynamic Evaluation for Realistic Agentic LLM Routing](https://arxiv.org/abs/2605.18859) (TwinRouterBench) | Agent, Code, RAG, Gen | ACM CAIS 2026 Workshop RLEval homepage | [github](https://github.com/CommonstackAI/TwinRouterBench) |
 | [RouteJudge: An Open Platform for Reproducible and Preference-Aware LLM Routing](https://arxiv.org/abs/2606.18774) (RouteJudge & ORBIT) | General, Dialogue, Gen | ArXiv 2026 | [github](https://lamda-model-reuse.github.io/RouteJudge/) |
+| [EC²-Bench (Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution)](https://arxiv.org/abs/2610.17816) | Agent, Edge-Cloud, Privacy | ArXiv 2026 | [GitHub](https://github.com/OpenBMB/EC2-Bench) |
 
 
 ### **Sub‑Category: Safety Analysis**
