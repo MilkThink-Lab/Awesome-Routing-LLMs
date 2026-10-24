@@ -259,7 +259,9 @@ In deployment, routing often faces hard resource constraints (e.g., maximum late
 | [Unsolvability Ceiling in Multi-LLM Routing: An Empirical Study of Evaluation Artifacts](https://arxiv.org/abs/2605.07395) | General, Med, Code, QA, Dialogue | ArXiv 2026 | – |
 | [TwinRouterBench: Fast Static and Live Dynamic Evaluation for Realistic Agentic LLM Routing](https://arxiv.org/abs/2605.18859) (TwinRouterBench) | Agent, Code, RAG, Gen | ACM CAIS 2026 Workshop RLEval homepage | [github](https://github.com/CommonstackAI/TwinRouterBench) |
 | [RouteJudge: An Open Platform for Reproducible and Preference-Aware LLM Routing](https://arxiv.org/abs/2606.18774) (RouteJudge & ORBIT) | General, Dialogue, Gen | ICML 2026 Workshop | [Project](https://routejudge.cn/) · [GitHub](https://github.com/LAMDA-Model-Reuse/ORBIT) |
-| [When LLM Routers Overpay: Strong-Model Over-Selection under Loose Budgets](https://openreview.net/forum?id=v2DOrFK8Wp) | General, Cost, Evaluation | NeurIPS 2026 | – |
+| [When LLM Routers Overpay: Strong-Model Over-Selection under Loose Budgets](https://neurips.cc/virtual/2026/poster/148797) | General, Cost, Evaluation | NeurIPS 2026 | – |
+| [EC2-Bench (Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution)](https://arxiv.org/abs/2610.17816) | Agent, Edge-Cloud, Privacy | ArXiv 2026 | [GitHub](https://github.com/OpenBMB/EC2-Bench) |
+
 
 
 ### **Sub‑Category: Safety Analysis**
