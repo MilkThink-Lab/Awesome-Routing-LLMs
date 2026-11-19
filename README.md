@@ -132,6 +132,7 @@ In deployment, routing often faces hard resource constraints (e.g., maximum late
 | [From Sampled Outcomes to Capability Distributions: Rethinking Supervision for LLM Routing](https://arxiv.org/abs/2606.06924) (DARS (Distribution-Aware Routing Supervision)) | ArXiv 2026 | STEM, Math, QA, Reasoning | [github](https://github.com/AIGNLAI/DARS) |
 | [Pretrain Once, Route Anywhere: Towards a Foundation Model for LLM Routing](https://arxiv.org/abs/2609.37362) (RouteFM) | ArXiv 2026 | General, Math, Code, Multimodal | [GitHub](https://github.com/LAMDA-Model-Reuse/RouteFM) |
 | [Routing Should Pay for Itself: Sparse Supervision for Economical LLM Routing](https://arxiv.org/abs/2609.37402) (SaveRouter) | ArXiv 2026 | General, Math, Code, Reasoning | [GitHub](https://github.com/LAMDA-Model-Reuse/SaveRouter) |
+| [TabAgent: Distilling LLM Agent Components into Cheap Classifiers](https://arxiv.org/abs/2602.16429) (TabAgent) | ArXiv 2026 | Agent, Tool Use | [GitHub](https://github.com/dolev31/TabAgent) |
 <!-- | **[BLUE: Toward Better Language Use in Efficient Vision-Language-Action Models for Autonomous Driving](https://arxiv.org/abs/2606.08684) (BLUE)** | **ArXiv 2026** | **Autonomous driving, vision-language-action models** | **Available (see paper)** | -->
 
 ---
