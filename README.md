@@ -65,6 +65,8 @@ In deployment, routing often faces hard resource constraints (e.g., maximum late
 | [Towards Cost-effective LLMs Routing with Batch Prompting](https://arxiv.org/abs/2605.28268) (RoBatch) | ArXiv 2026 | Classify, Math, Reasoning | – |
 | [BiCSRouter: Bi-Level Cross-System Routing for Utility-Aware LLM Inference](https://aclanthology.org/2026.findings-acl.947/) (BiCSRouter) | Findings of ACL 2026 | Code, Math, Reasoning, QA, General | – |
 | [Latency-Quality Routing for Functionally Equivalent Tools in LLM Agents](https://arxiv.org/abs/2605.14241) (LQM-CONTEXTROUTE) | ArXiv 2026 | Agent, Retrieval, QA | – |
+| [The Differential Reasoning Router: Operationalizing Cost-Aware LLM Annotation in E-commerce](https://aclanthology.org/2026.emnlp-industry.166/) (DRR) | EMNLP 2026 | Multimodal, Classify, Reasoning | – |
+| [RLCascadeRouter: Quality-Estimator-Free Cascade Routing via Reinforcement Learning](https://arxiv.org/abs/2608.15817) (RLCascadeRouter) | ArXiv 2026 | General, Math, Code, QA | – |
 <!-- | **[Simple is Better: Multiplication May Be All You Need for LLM Request Scheduling](https://arxiv.org/abs/2603.15202) (LMETRIC)** | **OSDI 2026** | **LLM serving, request scheduling, chatbot, coding agent, API calling** | **Available (see paper)** | -->
 
 ### **Sub‑Category: Feature Matching**
@@ -88,6 +90,7 @@ In deployment, routing often faces hard resource constraints (e.g., maximum late
 | [Minimizing Mismatch Risk: A Prototype‑Based Routing Framework for Zero‑shot LLM‑generated Text Detection](https://arxiv.org/abs/2602.01240) (DetectRouter) | ICML2026     | Detection, Security                              | –                                                            |
 | [Toward Super Agent System with Hybrid AI Routers](https://arxiv.org/abs/2504.10519) (Super Agent System) | ArXiv 2025   | Agent, Code                                      | –                                                            |
 | [vLLM Semantic Router: Signal Driven Decision Routing for Mixture‑of‑Modality Models](https://arxiv.org/abs/2603.04444) | ArXiv 2026   | General, Multimodal                              | [GitHub](https://github.com/vllm-project/semantic-router)    |
+| [SCOPE-Router: Cost-Aware Open-Set VLM Routing for Execution-Oriented Tasks](https://arxiv.org/abs/2608.12127) (SCOPE-Router) | ArXiv 2026 | Multimodal, Code, Agent, Retrieval | [GitHub](https://github.com/yutao1024/SCOPE-Router) |
 <!-- | **[SPATIOROUTE: Dynamic Prompt Routing for Zero-Shot Spatial Reasoning](https://arxiv.org/abs/2605.18209) (SPATIOROUTE)** | **CVPR Workshop 2026** | *prompt router* | [github](https://github.com/PudPawat/SPATIOROUTE) | -->
 | [Brick: Spatial Capability Routing for the Mixture-of-Models (MoM) Paradigm](https://arxiv.org/abs/2606.13241) (Brick) | ArXiv 2026 | General, Code, Math, Reasoning, Knowledge, Agent | [github](https://github.com/regolo-ai/brick-SR1) |
 
@@ -166,6 +169,12 @@ In deployment, routing often faces hard resource constraints (e.g., maximum late
 | [TARo: Token‑level Adaptive Routing for LLM Test‑time Alignment](https://arxiv.org/abs/2603.18411) (TARo) | ArXiv 2026   | Math, Med, Reasoning, Gen                                 | –                                                            |
 | [Neural Chain-of-Thought Search: Searching the Optimal Reasoning Path to Enhance Large Language Models](https://arxiv.org/abs/2601.11340)(NCoTs) | ArXiv 2026   | Math, Reasoning, General                                  | [GitHub](https://github.com/MilkThink-Lab/Neural-CoT-Search) |
 | Confidence-Guided Stepwise Model Routing for Cost-Efficient Reasoning (STEER) | AAAI 2026 | Math, QA, Reasoning, General | [github](https://github.com/helmsman12/STEER) |
+| [Shared Prefixes, Better Credit: Adaptive Routing for Multi-Agent Reasoning](https://arxiv.org/abs/2608.02291) (TreeCredit) | ArXiv 2026 | Agent, Math, Reasoning | – |
+| [Scrouting: Cost-Aware Routing of Coding Agents by Scouting the Repository First](https://arxiv.org/abs/2608.04804) (SuperScout) | ArXiv 2026 | Agent, Code | [GitHub](https://github.com/TransformerOptimus/superscout) |
+| [Relay, Don't Route: Adaptive Population Handoff for Cost-Efficient LLM-Driven Evolution](https://arxiv.org/abs/2608.05651) (RelayEvolve) | ArXiv 2026 | Code, Optimization | – |
+| [FutureBridge: Token Selection Beyond Local Preference in Collaborative Decoding](https://arxiv.org/abs/2608.06819) (FutureBridge) | ArXiv 2026 | Math, Reasoning | – |
+| [Sparse Multi-Stage Expert-Agent Routing for Complex Clinical Reasoning](https://arxiv.org/abs/2608.21948) | ArXiv 2026 | Agent, Med | – |
+| [ProgRouter: Online Progress-Guided Orchestration for Multi-Agent LLM Workflows under Quality-Cost Tradeoffs](https://aclanthology.org/2026.findings-emnlp.156/) (ProgRouter) | Findings of EMNLP 2026 | Agent, Code, Math, QA | – |
 
 ### **Sub‑Category: Self‑Assessment**
 
@@ -186,6 +195,7 @@ In deployment, routing often faces hard resource constraints (e.g., maximum late
 | [R2V Agent: Teaching SLMs When to Ask for Help](https://arxiv.org/abs/2605.16604) (R2V-Agent) | ArXiv 2026 | Agent, Code, Reasoning | [github](https://github.com/RaghuHemadri/r2v-agent.git) |
 | [RASER: Recoverability-Aware Selective Escalation Router for Multi-Hop Question Answering](https://arxiv.org/abs/2606.02488) (RASER) | ArXiv 2026 | QA, RAG, Reasoning | [github](https://github.com/YuyangLi99/RASER) |
 | [Resample or Reroute? Budget-Aware Test-Time Model Selection for Large Language Models](https://arxiv.org/abs/2607.08665) (Resample-or-Reroute (RoR)) | ArXiv 2026 | Math, STEM, Code, Reasoning, QA | Available (see paper) |
+| [Pro-Router: Token-Aware Progressive Model Routing with Adaptive Edge-Cloud Collaboration for Efficient Multimodal LLM Inference](https://arxiv.org/abs/2608.28726) (Pro-Router) | ArXiv 2026 | Multimodal, Reasoning | [GitHub](https://github.com/xinyuangui2/pro-router) |
 
 ---
 
@@ -234,6 +244,10 @@ In deployment, routing often faces hard resource constraints (e.g., maximum late
 | [Mahmood et al. (Routing, Cascades, and User Choice for LLMs)](https://arxiv.org/abs/2602.09902) | Theory  | ICLR 2026  | –    |
 | [Bae et al. (Learning to Route and Schedule LLMs from User Retrials via Contextual Queueing Bandits)](https://arxiv.org/abs/2602.02061) | General | ArXiv 2026 | –    |
 | [What Does a Routing Oracle Measure Under Stochastic Decoding? Coupling, Scorer Choice, and Single-Commit Ceilings](https://arxiv.org/abs/2607.03436) | Theory, General | ArXiv 2026 | [github](https://github.com/luka-krixvon/routing-oracle-experiment) |
+| [RouteGuard: Certifying Routing Gain in LLM Multi-Agent Systems When Complementarity Is Not Enough](https://arxiv.org/abs/2608.07583) (RouteGuard) | Theory, General | ArXiv 2026 | – |
+| [Error-Aware Reverse Auction Mechanism for Large Language Model Routing](https://arxiv.org/abs/2608.12719) (EA-RAM) | Theory, General | ArXiv 2026 | – |
+| [Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation](https://arxiv.org/abs/2608.20316) | Theory, RAG, Math | ArXiv 2026 | – |
+| [The Shadow Price of Intelligence: Quality Degradation and Retry Feedback in LLM Inference](https://arxiv.org/abs/2608.23986) | Theory | ArXiv 2026 | – |
 
 ### **Sub‑Category: Benchmark and Evaluation**
 
@@ -263,6 +277,12 @@ In deployment, routing often faces hard resource constraints (e.g., maximum late
 | [RouteJudge: An Open Platform for Reproducible and Preference-Aware LLM Routing](https://arxiv.org/abs/2606.18774) (RouteJudge & ORBIT) | General, Dialogue, Gen | ICML 2026 Workshop | [GitHub](https://github.com/LAMDA-Model-Reuse/ORBIT) |
 | [When LLM Routers Overpay: Strong-Model Over-Selection under Loose Budgets](https://neurips.cc/virtual/2026/poster/148797) | General, Cost, Evaluation | NeurIPS 2026 | – |
 | [EC2-Bench (Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution)](https://arxiv.org/abs/2610.17816) | Agent, Edge-Cloud, Privacy | ArXiv 2026 | [GitHub](https://github.com/OpenBMB/EC2-Bench) |
+| [LLMRouter: Unified Infrastructure for Developing, Evaluating, and Deploying LLM Routers](https://arxiv.org/abs/2608.06867) (LLMRouter / xRouteBench) | General, Multimodal, Agent | ArXiv 2026 | [GitHub](https://github.com/ulab-uiuc/LLMRouter) |
+| [The Replay Gap: Static Evaluation of Model Switching in LLM Agents Scores the Wrong World](https://arxiv.org/abs/2608.08239) | Agent, Code | COLM 2026 Workshop (Efficient Reasoning) | [GitHub](https://github.com/AshrithaG/replay-gap) |
+| [Opportunity Is Not Realizability: Selection-Valid Diagnostics for Multi-LLM Routing](https://arxiv.org/abs/2608.08265) | General, QA, Reasoning | ArXiv 2026 | – |
+| [LLMs Can Predict Failure Risk, But Struggle to Predict Which Collaboration Protocol Pays Off: Cost-Aware Protocol Routing Across Reasoning Tasks](https://aclanthology.org/2026.findings-emnlp.1275/) | Agent, Math, STEM, Reasoning | Findings of EMNLP 2026 | – |
+| [Most of the LLM Routing Gap Is Task Type](https://arxiv.org/abs/2608.23023) | General, Code, QA | ArXiv 2026 | – |
+| [COVER: Identifiable Evaluation of Coalition Routing](https://arxiv.org/abs/2608.28475) (COVER) | Agent, QA | ArXiv 2026 | – |
 
 
 
