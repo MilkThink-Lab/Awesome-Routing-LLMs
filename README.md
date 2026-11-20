@@ -10,10 +10,14 @@ A curated list of awesome works in Routing LLMs paradigm
 
 ## LLM Router Products
 
-| Product | Routing behavior |
-| --- | --- |
-| [OpenRouter Auto Router](https://openrouter.ai/openrouter/auto) | Selects a model using community spending on similar tasks over the past seven days, subject to the requested cost tier and model restrictions. |
-| [TypeSafe Jev Router](https://openrouter.ai/typesafe/jev-router) | Selects a model and reasoning effort for each request based on task difficulty, expected benefit from a stronger model, and cost preferences. [Documentation](https://openrouter.ai/docs/guides/routing/routers/jev-router) |
+| Product | Provider | Routing behavior | Resources |
+| --- | --- | --- | --- |
+| OpenRouter Auto Router | OpenRouter | Selects a model and reasoning effort for each request from the models allowed by the caller’s provider and data-handling settings. | [Documentation](https://openrouter.ai/docs/guides/routing/routers/auto-router) |
+| TypeSafe Jev Router | TypeSafe (via OpenRouter) | Uses Jev to assess task difficulty and the likely benefit of a stronger model, then selects a model and reasoning effort according to the caller’s cost preferences. | [Documentation](https://openrouter.ai/docs/guides/routing/routers/jev-router) |
+| Microsoft Foundry Model Router | Microsoft | Predicts response quality for each prompt and selects from the configured model pool using Balanced, Quality, or Cost mode. | [Documentation](https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-router) · [External evaluation](https://openreview.net/pdf?id=9HsaIi4ngF) |
+| Amazon Bedrock Intelligent Prompt Routing | Amazon Web Services (AWS) | Routes between two models in the same family using their predicted quality difference and a user-defined threshold. | [Documentation](https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-routing.html) · [IPR paper](https://aclanthology.org/2025.emnlp-industry.170/) |
+| Cloudflare AI Gateway Auto Router | Cloudflare | Classifies the task and its difficulty, then ranks eligible models by expected response quality and cost. | [Documentation](https://developers.cloudflare.com/ai-gateway/features/routing/auto-router/) · [Engineering blog](https://blog.cloudflare.com/auto-router/) |
+| Not Diamond Model Router | Not Diamond | Given the messages and a caller-specified model pool, returns a recommended model ID based on quality, cost, or latency preferences. | [Documentation](https://docs.notdiamond.ai/reference/token_model_select_v2_modelrouter_modelselect_post) · [External evaluation](https://openreview.net/pdf?id=9HsaIi4ngF) |
 
 ## Survey
 
