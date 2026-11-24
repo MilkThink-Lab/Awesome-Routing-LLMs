@@ -18,6 +18,7 @@ A curated list of awesome works in Routing LLMs paradigm
 | Amazon Bedrock Intelligent Prompt Routing | Amazon Web Services (AWS) | Routes between two models in the same family using their predicted quality difference and a user-defined threshold. | [Documentation](https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-routing.html) · [IPR paper](https://aclanthology.org/2025.emnlp-industry.170/) |
 | Cloudflare AI Gateway Auto Router | Cloudflare | Classifies the task and its difficulty, then ranks eligible models by expected response quality and cost. | [Documentation](https://developers.cloudflare.com/ai-gateway/features/routing/auto-router/) · [Engineering blog](https://blog.cloudflare.com/auto-router/) |
 | Not Diamond Model Router | Not Diamond | Given the messages and a caller-specified model pool, returns a recommended model ID based on quality, cost, or latency preferences. | [Documentation](https://docs.notdiamond.ai/reference/token_model_select_v2_modelrouter_modelselect_post) · [External evaluation](https://openreview.net/pdf?id=9HsaIi4ngF) |
+| NVIDIA NeMo Switchyard | NVIDIA | Routes agent requests across model endpoints using configurable policies. Its escalation policy switches a session to a stronger model when a judge detects the same failure on consecutive turns. | [Documentation](https://github.com/NVIDIA-NeMo/Switchyard/blob/main/docs/routing_algorithms/overview.md) · [Engineering blog](https://developer.nvidia.com/blog/route-ai-agent-workloads-across-models-with-nvidia-nemo-switchyard/) |
 
 ## Survey
 
@@ -169,6 +170,7 @@ In deployment, routing often faces hard resource constraints (e.g., maximum late
 | [MARS: Memory-Aware Routing for Session-Level LLM Assistants](https://arxiv.org/abs/2610.23583) | ArXiv 2026 | Dialogue, Memory | – |
 | [Scout Before You Route: Predicting Task Success and Token Count from a Small LLM Prefill](https://arxiv.org/abs/2611.09028) | ArXiv 2026 | General, Math, Reasoning, QA | – |
 | [Ensemble Routing for Prompt-Adaptive Cost-Aware LLM Inference](https://arxiv.org/abs/2611.10193) (PISA, PISA-E) · [![HF Daily Papers: 14 votes as of 2026-11-20](https://img.shields.io/badge/Daily%20Papers-14%20votes-FFD21E?style=flat-square&logo=huggingface)](https://huggingface.co/papers/date/2026-11-12 "Hugging Face upvotes as of 2026-11-20") | ArXiv 2026 | General, Reasoning, QA | – |
+| [AdaptRouter: Adaptive Routing across Evolving Tasks and Models](https://arxiv.org/abs/2611.30162) | ArXiv 2026 | General, Multimodal, Reasoning, Code | – |
 <!-- | **[BLUE: Toward Better Language Use in Efficient Vision-Language-Action Models for Autonomous Driving](https://arxiv.org/abs/2606.08684) (BLUE)** | **ArXiv 2026** | **Autonomous driving, vision-language-action models** | **Available (see paper)** | -->
 
 ---
@@ -218,6 +220,7 @@ In deployment, routing often faces hard resource constraints (e.g., maximum late
 | [Alliance of Stochastic Routing and Reinforcement Fusion for Multi-Model Reasoning](https://arxiv.org/abs/2610.24054) (VL-Scout) | ArXiv 2026 | Multimodal, Reasoning | [GitHub](https://github.com/sftekin/scout-rl/tree/release) |
 | [BALLAD: Bandit-Based LLM Routing for Automated Heuristic Discovery](https://arxiv.org/abs/2611.17241) | NeurIPS 2026 | Heuristic Discovery, Code | [GitHub](https://github.com/idea-iitd/Ballad) |
 | [Stop Going in Circles: Loop-Triggered Routing for System 1 Decision Agents](https://arxiv.org/abs/2611.25363) (LoopRoute) | ArXiv 2026 | Agent, Jev | – |
+| [Learning When to Ask: Advisor-Aware Post-Training for SLM Agents](https://arxiv.org/abs/2611.27443) (ADAPT) | ACML 2026 OE-Agent Workshop | Agent, Code, Reasoning, QA | – |
 
 ### **Sub‑Category: Self‑Assessment**
 
@@ -302,6 +305,7 @@ In deployment, routing often faces hard resource constraints (e.g., maximum late
 | [STAR (Truthful and Expected-Payment-Optimal Model Routing in Graph-Based Agentic Workflows)](https://arxiv.org/abs/2610.19316) | Agent, Pricing | ArXiv 2026 | – |
 | [Predictable performance is suboptimal, and what it means for model routing](https://arxiv.org/abs/2610.31428) | General, Cascades | ArXiv 2026 | [GitHub](https://github.com/socialfoundations/performance-prediction) |
 | [Compositional Conformal Risk Control for Multi-Stage LLM Cascades](https://arxiv.org/abs/2611.11114) (CompCRC) | Theory, QA | ArXiv 2026 | – |
+| [Congestion-Aware Adaptive Routing for LLM Classification](https://arxiv.org/abs/2611.31001) (CAAR) | Theory, Classification | ArXiv 2026 | – |
 
 ### **Sub‑Category: Benchmark and Evaluation**
 
