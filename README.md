@@ -245,6 +245,7 @@ In deployment, routing often faces hard resource constraints (e.g., maximum late
 | [Disagreement-Guided Weak-to-Strong Routing](https://arxiv.org/abs/2610.22245) | ArXiv 2026 | Reasoning, Code, Agent | [GitHub](https://github.com/nooranisima/disagreement-weak-to-strong-routing) |
 | [LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents](https://arxiv.org/abs/2610.22280) · [![HF Daily Papers: 9 votes as of 2026-11-20](https://img.shields.io/badge/Daily%20Papers-9%20votes-FFD21E?style=flat-square&logo=huggingface)](https://huggingface.co/papers/date/2026-10-16 "Hugging Face upvotes as of 2026-11-20") | ArXiv 2026 | Agent, Computer Use | – |
 | [Learning When to Collaborate: Selective Multi-Agent Medical Reasoning via Uncertainty-Aware Routing](https://arxiv.org/abs/2610.33544) (SMART-Med) | NeurIPS 2026 | Healthcare, Multimodal | [GitHub](https://github.com/JayceonHo/SMART-Med) |
+| [DRIFT: Detecting Representational Inconsistencies for Factual Truthfulness](https://arxiv.org/abs/2601.14210) (DRIFT) | ArXiv 2026 | QA | – |
 
 ---
 
